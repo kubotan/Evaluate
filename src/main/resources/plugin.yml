@@ -1,5 +1,5 @@
 main: space.gorogoro.evaluate.Evaluate
-name: KubotanUtil2
+name: Evaluate 
 version: 1.0
 description: 評価プラグイン
 author: kubotan
