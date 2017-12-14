@@ -1,0 +1,6 @@
+exex_interval_hour: 1
+bad_value: 0.500
+good_value: 0.500
+jail_command: "jail %s himawari"
+mute_command: "mute %s"
+is_debug: false

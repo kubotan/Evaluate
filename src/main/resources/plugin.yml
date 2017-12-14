@@ -1,0 +1,23 @@
+main: space.gorogoro.evaluate.Evaluate
+name: KubotanUtil2
+version: 1.0
+description: 評価プラグイン
+author: kubotan
+website: http://about.gorogoro.space/
+
+commands:
+  bad:
+    description: 指定されたプレイヤーに悪い評価をします
+    usage: §c/<command> (player name) (reason)§7- 指定されたプレイヤーに悪い評価をします。理由(reason)は必須です。
+  good:
+    description: 指定されたプレイヤーに良い評価をします
+    usage: §c/<command> (player name) §7- 指定されたプレイヤーに良い評価をします。理由(reason)は必須です。
+  status:
+    description: 自分のステータスを表示します
+    usage: §c/<command> §7- 自分のステータスを表示します
+  update:
+    description: 管理用
+    usage: §c/<command> (yyyy-MM-dd HH:mm:ss) §7- 指定された日時で最終実行日時をセットします
+  upvalue:
+    description: 管理用
+    usage: §c/<command> (player name) (9.999|-9.999) §7- 指定された値でreputationをセットします
