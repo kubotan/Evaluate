@@ -13,14 +13,11 @@ Please put it only in the plugin folder of spigot or bukkit.
 
 # Useage
 ```
-/bungeen reload - Reload the configuration.
-/bungeen setname [server name] [value] - Set the display value of the first line of the signboard.
-/bungeen setcomment [server name] [value] - Set the display value of the last line of the signboard.
-/bungeen setprotocoltype [server name] [default|legacy] - default:Client version 1.7 or later legecy:Other than default
-/bungeen remove [server name] - Remove the setting of the specified server name.
-/bungeen addmember [server name] [playername] - Everyone can pass before this command is executed.If more than one player is added, only those who are added can pass.
-/bungeen delmember [server name] [playername] - Delete players permitted to pass through.Everyone can pass if everyone is deleted.
-/bungeen delallmember [server name] - Delete all players permitted to pass through.Everyone can pass if everyone is deleted.
+/bad (player name) (reason) - 指定されたプレイヤーに悪い評価をします。理由(reason)は必須です。
+/good (player name) - 指定されたプレイヤーに良い評価をします。理由(reason)は必須です。
+/status - 自分のステータスを表示します(プレイヤーが指定ユーザーの場合のみ他のプレイヤー名を指定してステータスを表示できます。)
+/update (yyyy-MM-dd HH:mm:ss) - badやgoodは短時間で連投できないようになっています。この指定された日時を最終実行日時をセットします（デバッグ用）
+/upvalue (player name) (9.999|-9.999) §7- 指定された値で評価をセットします()
 ```
 
 # Permission
