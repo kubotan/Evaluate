@@ -184,7 +184,7 @@ public class Evaluate extends JavaPlugin implements Listener{
             boolean ret;
             if(sp.isOp()){
               ret = MainProcess.statusOp(con, sp, args);
-              if(sp.getName().equals("kubotan")){
+              if(sp.getName().equals(conf.getString("owner_name"))){
                 MainProcess.reasonOp(con, sp, args);
               }
             }else{
