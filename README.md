@@ -33,6 +33,10 @@ owner_name: "owner_player_name_here" - オーナー名を設定します。オ�
 
 # Permission
 Only the op can perform setting work.
+permissions.yml (Use Permission)
+```
+- space.gorogoro.evaluate.*
+```
 
 # Disclaimer
 Do not assume any responsibility by use. Please use it at your own risk.
