@@ -174,7 +174,7 @@ public class Evaluate extends JavaPlugin implements Listener{
     try{
       if((sender instanceof Player)) {
         Player sp = (Player)sender;
-        if(sp.hasPermission("space.gorogoro.himawari.*")){
+        if(sp.hasPermission("space.gorogoro.evaluate.*")){
           FileConfiguration conf = getConfig();
           if( command.getName().equals("bad") ) { 
             return MainProcess.bad(conf, con, sp, args);
